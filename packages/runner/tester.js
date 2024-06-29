@@ -194,7 +194,7 @@ class MecTest {
   }
 }
 
-const mc = new MecTest();
+const mec = new MecTest();
 
-export default mc.test;
+export default mec.test;
 export { assert, should, expect, mock, fake, stub, spy, replace, restore };

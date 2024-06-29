@@ -1,11 +1,11 @@
 // import framework modules
-import mc, { assert, fake, replace } from "mec-test";
+import mec, { assert, fake, replace } from "mec-test";
 // fixture to test
 import Calculator from "../fixtures/calculator.js";
 
 let calc;
 
-mc({
+mec({
   describe: "Calculator Tests",
   before: () => {
     console.log("Starting my tests");

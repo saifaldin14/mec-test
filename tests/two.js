@@ -1,6 +1,6 @@
-import mc, { assert } from "mec-test";
+import mec, { assert } from "mec-test";
 
-mc({
+mec({
   describe: "Unit test suite two",
   before: () => {
     console.log("called before");

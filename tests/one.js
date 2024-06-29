@@ -1,6 +1,6 @@
-import mc, { assert } from "mec-test";
+import mec, { assert } from "mec-test";
 
-mc({
+mec({
   one: () => {
     const a = 1;
     assert.strictEqual(a, 1, "a is 1");

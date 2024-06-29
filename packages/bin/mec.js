@@ -6,7 +6,7 @@ import { Environments } from "../util/env.js";
 // Configure Yargs CLI
 yargs(process.argv.slice(2))
   // sets the script name
-  .scriptName("mc")
+  .scriptName("mec")
   .usage("$0 [<tests>...]")
   // default command handler
   .command(
