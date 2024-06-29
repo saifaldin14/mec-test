@@ -1,7 +1,13 @@
-import { isBrowser } from "../util/env";
+import { isBrowser } from "../util/env.js";
 
-// Initialize Chai based on the current environment
-const chai = window.chai ? isBrowser() : await import("chai");
+let chai;
+
+// Initialize Chai based on environment
+if (isBrowser()) {
+  chai = window.chai;
+} else {
+  chai = await import("chai");
+}
 
 // Chai interfaces
 export const expect = chai.expect;
