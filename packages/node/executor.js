@@ -1,7 +1,6 @@
 import { Worker } from "node:worker_threads";
 import { MecStatus } from "../util/env.js";
 import makeDebug from "debug";
-import util from "util";
 
 // Debug logger
 const debug = makeDebug("NodeExecutor");
