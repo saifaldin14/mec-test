@@ -1,6 +1,6 @@
-# Mec Test - JavaScript testing framework
+# Meč Test - JavaScript testing framework
 
-> mec (mec-test) is a simple JavaScript testing full-stack framework
+> meč (mec-test) is a simple JavaScript testing full-stack framework
  
 ## Features
 
